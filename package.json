@@ -1,0 +1,25 @@
+{
+  "name": "testapp",
+  "version": "0.0.0",
+  "description": "Test app",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "mocha test/**/*.spec.js"
+  },
+  "author": "Rumen",
+  "license": "ISC",
+  "dependencies": {
+    "method-override": "~2.3.5",
+    "express": "~4.13.3",
+    "body-parser": "~1.14.0",
+    "mongoose": "~4.1.8",
+    "q": "~1.4.1",
+    "lodash": "~3.10.1"
+  },
+  "devDependencies": {
+    "chai": "~3.3.0",
+    "supertest": "~1.1.0",
+    "mocha": "~2.3.3"
+  }
+}
